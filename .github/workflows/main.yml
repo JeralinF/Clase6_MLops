@@ -22,8 +22,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build docker image
-        run: docker build -t jeralinfh/deploy-obesity:v1 .
+        run: docker build -t jeralinfh/deploy-obesity:v2 .
         
         
       - name: Docker push to Dockerhub
-        run: docker push jeralinfh/deploy_breast_cancer:v1
+        run: docker push jeralinfh/deploy-obesity:v2
