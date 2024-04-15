@@ -26,4 +26,4 @@ jobs:
         
         
       - name: Docker push to Dockerhub
-        run: docker push JeralinF/deploy-obesity:v2
+        run: docker push jeralinf/deploy-obesity:v2
